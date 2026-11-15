@@ -1,0 +1,18 @@
+# Entorno y configuración local
+.env
+.venv/
+venv/
+
+# Archivos generados por Python
+__pycache__/
+*.py[cod]
+
+# Logs de ejecución (la carpeta se conserva con .gitkeep)
+logs/*.log
+
+# Editores y sistema operativo
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+docs/
