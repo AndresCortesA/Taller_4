@@ -46,7 +46,7 @@ class Reserva(Entidad):
             raise ReservaInvalidaError(f"Duración no válida para la reserva {identificador}") from error
 
         if not isinstance(fecha_inicio, datetime) or fecha_inicio < datetime.now():
-            raise ReservaInvalidaError("La fecha de inicio debe ser una fecha futura")
+            raise ReservaInvalidaError("La fecha de inicio debe ser una fecha futura, intentar de nuevo")
         if isinstance(descuento, bool) or not isinstance(descuento, (int, float)) or not 0 <= descuento <= DESCUENTO_MAXIMO:
             raise ReservaInvalidaError(f"El descuento debe estar entre 0 y {DESCUENTO_MAXIMO}")
 

@@ -73,3 +73,7 @@ def obtener_configuracion(ruta_env: Path | None = None) -> Configuracion:
         tasa_impuesto=tasa_impuesto,
         max_horas_reserva=max_horas,
     )
+
+    """
+    autor: Andres Arias
+    """

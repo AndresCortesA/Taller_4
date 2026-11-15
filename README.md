@@ -114,4 +114,4 @@ Sobre el costo base se aplica el descuento de la reserva (máximo 50 %) y luego 
 
 ## Autor
 
-Andrés Mauricio Arias Cortés - Grupo 213023
+Andrés Mauricio Arias Cortés - Grupo 213023_2204
